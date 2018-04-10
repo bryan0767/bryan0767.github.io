@@ -350,17 +350,17 @@ content: url("src/justdesk.gif") ;
   }
 
 #quote {
-  content: url('src/Quote.svg')
+  content: url('src/Quote.png')
 }
 
 #clock {
-  content:url('src/Clock.svg')
+  content:url('src/Clock.png')
 }
 #calculator {
-  content:url('src/Calculator.svg')
+  content:url('src/Calculator.png')
 }
 #drum {
-  content:url('src/Drum.svg')
+  content:url('src/Drum.png')
 }
 
 .pic > * {
@@ -397,20 +397,20 @@ height: 260px;
 
 #quote {
   display: flex;
-  content: url('src/Quote.svg')
+  content: url('src/Quote.png')
 }
 
 #clock {
     display: flex;
-  content:url('src/Clock.svg')
+  content:url('src/Clock.png')
 }
 #calculator {
     display: flex;
-  content:url('src/Calculator.svg')
+  content:url('src/Calculator.png')
 }
 #drum {
     display: flex;
-  content:url('src/Drum.svg')
+  content:url('src/Drum.png')
 }
 
 .pic > * {
@@ -490,7 +490,7 @@ text-align: center;
 
   #quote {
     display: flex;
-    content: url('src/Quote.svg');
+    content: url('src/Quote.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
@@ -498,21 +498,21 @@ text-align: center;
 
   #clock {
       display: flex;
-    content:url('src/Clock.svg');
+    content:url('src/Clock.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.svg');
+    content:url('src/Calculator.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.svg');
+    content:url('src/Drum.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
@@ -584,27 +584,27 @@ font-size: 14px;
 
   #quote {
     display: flex;
-    content: url('src/Quote.svg');
+    content: url('src/Quote.png');
     width:30%;
   }
 
   #clock {
       display: flex;
-    content:url('src/Clock.svg');
+    content:url('src/Clock.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.svg');
+    content:url('src/Calculator.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.svg');
+    content:url('src/Drum.png');
     width: auto ;
  max-width: 100% ;
  height: auto ;
