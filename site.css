@@ -490,7 +490,7 @@ text-align: center;
 
   #quote {
     display: flex;
-    content: url('src/Quote.png');
+    content: url('src/Quote.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
@@ -498,21 +498,21 @@ text-align: center;
 
   #clock {
       display: flex;
-    content:url('src/Clock.png');
+    content:url('src/Clock.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.png');
+    content:url('src/Calculator.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.png');
+    content:url('src/Drum.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
@@ -584,27 +584,27 @@ font-size: 14px;
 
   #quote {
     display: flex;
-    content: url('src/Quote.png');
+    content: url('src/Quote.svg');
     width:30%;
   }
 
   #clock {
       display: flex;
-    content:url('src/Clock.png');
+    content:url('src/Clock.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.png');
+    content:url('src/Calculator.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.png');
+    content:url('src/Drum.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
