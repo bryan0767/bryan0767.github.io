@@ -307,9 +307,11 @@ table td:hover {
   }
 
   .list_item img{
-    height:10em;
+    width:60%;
     display:none;
     cursor: pointer;
+    /* border:2px solid black; */
+    align-self: center;
   }
 
 
@@ -582,9 +584,7 @@ font-size: 14px;
   #quote {
     display: flex;
     content: url('src/Quote.png');
-    width: auto ;
- max-width: 100% ;
- height: auto ;
+    width:30%;
   }
 
   #clock {
