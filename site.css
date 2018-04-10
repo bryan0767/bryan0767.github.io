@@ -372,7 +372,7 @@ content: url("src/justdesk.gif") ;
 
 
 /* tablet */
-@media only screen and (min-width: 591px) and (max-width:768px) {
+@media only screen and (min-width: 637px) and (max-width:768px) {
   #room {
 content: url("src/justwindow.gif") ;
 height: 260px;
@@ -424,7 +424,7 @@ height: 260px;
 
 /* phones */
 
-@media only screen and (min-width: 375px) and (max-width:590px) {
+@media only screen and (min-width: 375px) and (max-width:636px) {
   .menu {
   display: none;
   }
@@ -483,6 +483,24 @@ text-align: center;
 
   .little-list {
     display: flex;
+  }
+
+  #quote {
+    display: flex;
+    content: url('src/Quote.png')
+  }
+
+  #clock {
+      display: flex;
+    content:url('src/Clock.png')
+  }
+  #calculator {
+      display: flex;
+    content:url('src/Calculator.png')
+  }
+  #drum {
+      display: flex;
+    content:url('src/Drum.png')
   }
 
 }
@@ -548,23 +566,23 @@ font-size: 14px;
   .little-list {
     display: flex;
   }
-  
-  #quote {
-  display: flex;
-  content: url('src/Quote.png')
-}
 
-#clock {
+  #quote {
     display: flex;
-  content:url('src/Clock.png')
-}
-#calculator {
-    display: flex;
-  content:url('src/Calculator.png')
-}
-#drum {
-    display: flex;
-  content:url('src/Drum.png')
-}
+    content: url('src/Quote.png')
+  }
+
+  #clock {
+      display: flex;
+    content:url('src/Clock.png')
+  }
+  #calculator {
+      display: flex;
+    content:url('src/Calculator.png')
+  }
+  #drum {
+      display: flex;
+    content:url('src/Drum.png')
+  }
 
 }
