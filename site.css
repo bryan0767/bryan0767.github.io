@@ -350,17 +350,17 @@ content: url("src/justdesk.gif") ;
   }
 
 #quote {
-  content: url('src/Quote.png')
+  content: url('src/Quote.png');
 }
 
 #clock {
-  content:url('src/Clock.png')
+  content:url('src/Clock.png');
 }
 #calculator {
-  content:url('src/Calculator.png')
+  content:url('src/Calculator.png');
 }
 #drum {
-  content:url('src/Drum.png')
+  content:url('src/Drum.png');
 }
 
 .pic > * {
@@ -377,7 +377,7 @@ content: url("src/justdesk.gif") ;
 /* tablet */
 @media only screen and (min-width: 637px) and (max-width:768px) {
   #room {
-content: url("src/justwindow.gif") ;
+content: url("src/justwindow.gif");
 height: 260px;
   align-self: center;
   margin-right:4%;
@@ -397,20 +397,20 @@ height: 260px;
 
 #quote {
   display: flex;
-  content: url('src/Quote.png')
+  content: url('src/Quote.png');
 }
 
 #clock {
     display: flex;
-  content:url('src/Clock.png')
+  content:url('src/Clock.png');
 }
 #calculator {
     display: flex;
-  content:url('src/Calculator.png')
+  content:url('src/Calculator.png');
 }
 #drum {
     display: flex;
-  content:url('src/Drum.png')
+  content:url('src/Drum.png');
 }
 
 .pic > * {
