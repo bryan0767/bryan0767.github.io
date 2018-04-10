@@ -548,5 +548,23 @@ font-size: 14px;
   .little-list {
     display: flex;
   }
+  
+  #quote {
+  display: flex;
+  content: url('src/Quote.png')
+}
+
+#clock {
+    display: flex;
+  content:url('src/Clock.png')
+}
+#calculator {
+    display: flex;
+  content:url('src/Calculator.png')
+}
+#drum {
+    display: flex;
+  content:url('src/Drum.png')
+}
 
 }
