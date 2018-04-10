@@ -304,7 +304,6 @@ table td:hover {
     /* border:2px solid grey; */
     cursor: pointer;
     background-color: hsla(0, 0%, 100%, 0.07);
-
   }
 
   .list_item img{
@@ -312,7 +311,8 @@ table td:hover {
     display:none;
     cursor: pointer;
     /* border:2px solid black; */
-    align-self: center;
+    /* align-self: center; */
+    margin: auto;
   }
 
 
