@@ -487,20 +487,32 @@ text-align: center;
 
   #quote {
     display: flex;
-    content: url('src/Quote.png')
+    content: url('src/Quote.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
 
   #clock {
       display: flex;
-    content:url('src/Clock.png')
+    content:url('src/Clock.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.png')
+    content:url('src/Calculator.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.png')
+    content:url('src/Drum.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
 
 }
@@ -569,20 +581,32 @@ font-size: 14px;
 
   #quote {
     display: flex;
-    content: url('src/Quote.png')
+    content: url('src/Quote.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
 
   #clock {
       display: flex;
-    content:url('src/Clock.png')
+    content:url('src/Clock.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
   #calculator {
       display: flex;
-    content:url('src/Calculator.png')
+    content:url('src/Calculator.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
   #drum {
       display: flex;
-    content:url('src/Drum.png')
+    content:url('src/Drum.png');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
   }
 
 }
