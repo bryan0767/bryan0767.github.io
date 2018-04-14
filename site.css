@@ -6,12 +6,12 @@ background: linear-gradient(#843535d1, #d4a144d9);
   display: flex;
   justify-content: center;
   overflow: auto;
-  -webkit-touch-callout: none;
+  /* -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none; */
 }
 
 .container {
@@ -520,7 +520,7 @@ text-align: center;
 
 }
 
-@media only screen and (min-width: 0px) and (max-width:375px) {
+@media only screen and (max-width:375px) {
 
   .menu {
   display: none;
