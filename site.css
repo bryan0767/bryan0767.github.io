@@ -81,19 +81,14 @@ background: linear-gradient(#843535d1, #d4a144d9);
   color: #c8c8ca;
   font-weight: bold;
   font-size: 18px;
+  /* text-align: center; */
   font-family: 'Raleway', sans-serif;
  }
 
 .skillbox {
   display: flex;
-  /* justify-content: center; */
-  /* margin:2%; */
-  /* min-width: 80em; */
-  /* max-width: 80em; */
   font-weight: bold;
-  /* border: 2px solid black; */
   font-family: 'Raleway', sans-serif;
-  /* margin:auto; */
   align-self: center;
 }
 
@@ -113,7 +108,6 @@ table td:hover {
 }
 
 .skillbox td {
-  /* border:1pxs solid black; */
   font-size: 12px;
   height:3em;
   width:10em;
@@ -124,31 +118,10 @@ table td:hover {
   color: #c8c8ca;
 }
 
-.main {
-  display: flex;
-  flex-flow: row wrap;
-  /* min-width: 1300px; */
-  min-width: 80em;
-  max-width: 80em;
-  /* overflow: auto; */
-  align-items: center;
-  justify-content: center;
-  padding:2px;
-  /* margin: auto; */
-  align-self: center;
-  /* border:2px solid black; */
-}
-
-.main > * {
-  width:600px;
-  margin: 1%;
-}
 
 .footer {
   display: flex;
   width: 100%;
-  /* justify-content: center; */
-  /* align-content: center; */
   min-width: 80em;
   max-width: 80em;
   align-self: center;
@@ -161,7 +134,6 @@ table td:hover {
 .contact {
   font-family: 'Raleway', sans-serif;
   width:30%;
-  /* height:2%; */
   padding:10px;
   margin:auto;
   margin-bottom: 3%;
@@ -171,7 +143,6 @@ table td:hover {
   text-align: center;
   color:#c8c8ca;
   font-weight: bold;
-  /* background:linear-gradient(#a2e23c00, #e8de5e3b); */
 }
 
 #git {
@@ -190,41 +161,42 @@ table td:hover {
   align-items: center;
   padding:2px;
   margin: auto;
-  /* border:2px solid black; */
+  /* border:10px solid black; */
   justify-content: center;
+
 }
 .pic > * {
-  /* min-width: 20em;
-  max-width: 20em; */
-  /* flex:1 100%; */
   margin:1%;
 }
 
 .image_container {
-  /* overflow: hidden; */
-  /* border:5px solid black; */
   position: relative;
 }
 
 #calculator {
+  content:url('src/Calculator.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #drum {
+  content:url('src/Drum.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #quote {
+  content: url('src/Quote.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #clock {
+  content:url('src/Clock.png');
   min-width: 100%;
   max-width: 100%;
 }
+
 
 #cover {
   display: flex;
@@ -315,25 +287,40 @@ table td:hover {
     margin: auto;
   }
 
-
-
 /* begin media querys */
-@media only screen and (min-width: 1025px) and (max-width:2600px) {
-  .pic {
-    display:none
+@media only screen and (min-width: 2559px) {
+  #list {
+    font-size: 40px;
   }
-  .main {
-    margin-top:-2%;
+
+  #title {
+    font-size:45px;
+  }
+
+  .pic > * {
+    min-width: 43%;
+    max-width: 43%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:2558px) {
+  .pic > * {
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  #list {
+    font-size: 20px;
+  }
+
+  #title {
+    font-size:25px;
   }
 }
 
 /* small laptop */
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
-
-  .main {
-    margin-top:-2%;
-  }
 
   #room {
 content: url("src/justdesk.gif") ;
