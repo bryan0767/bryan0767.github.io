@@ -411,6 +411,10 @@ height: 260px;
   width:18%;
 }
 
+#cover > *{
+  font-size: 9px;
+}
+
 }
 
 /* phones */
