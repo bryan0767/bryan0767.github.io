@@ -1,9 +1,9 @@
 body {
 background: linear-gradient(#843535d1, #d4a144d9);
   margin:0;
-  width:100%;
-  height:100%;
-  display: flex;
+  /* width:100%; */
+  /* height:100%; */
+  /* display: flex; */
   justify-content: center;
   overflow: auto;
   -webkit-touch-callout: none;
@@ -156,48 +156,57 @@ table td:hover {
 .pic {
   display: flex;
   flex-flow: row wrap;
-  min-width: 98%;
-  min-width: 98%;
+  min-width: 90%;
+  max-width: 90%;
   align-items: center;
   padding:2px;
   margin: auto;
   /* border:10px solid black; */
-  justify-content: center;
+  justify-content: space-between;
 
 }
+
 .pic > * {
   margin:1%;
+  /* width: 20px; */
 }
 
 .image_container {
   position: relative;
+  min-width: 30%;
+  max-width: 30%;
 }
 
 #calculator {
+  display: flex;
   content:url('src/Calculator.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #drum {
+  display:flex;
   content:url('src/Drum.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #quote {
+  display: flex;
   content: url('src/Quote.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #clock {
+  display:flex;
   content:url('src/Clock.png');
   min-width: 100%;
   max-width: 100%;
 }
 
 #weather {
+  display: flex;
   content: url('src/weather.png');
   min-width: 100%;
   max-width: 100%;
@@ -303,16 +312,24 @@ table td:hover {
     font-size:45px;
   }
 
+  .pic {
+    min-width: 50%;
+    max-width: 50%;
+  }
+
   .pic > * {
-    min-width: 43%;
-    max-width: 43%;
+    min-width: 31%;
+    max-width: 31%;
+  }
+  #cover > * {
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width:2558px) {
   .pic > * {
-    min-width: 45%;
-    max-width: 45%;
+    min-width: 31%;
+    max-width: 31%;
   }
 
   #list {
@@ -322,6 +339,11 @@ table td:hover {
   #title {
     font-size:25px;
   }
+
+  #cover > *{
+    font-size: 20px;
+  }
+
 }
 
 /* small laptop */
@@ -342,27 +364,13 @@ content: url("src/justdesk.gif") ;
     display:none;
   }
 
-#quote {
-  content: url('src/Quote.png');
-}
-
-#clock {
-  content:url('src/Clock.png');
-}
-#calculator {
-  content:url('src/Calculator.png');
-}
-#drum {
-  content:url('src/Drum.png');
-}
-
-#weather {
-  content:url('src/weather.png');
-}
-
 .pic > * {
-  min-width: 40%;
-  max-width: 40%;
+  min-width: 31%;
+  max-width: 31%;
+}
+
+#cover > *{
+  font-size: 12px;
 }
 
 .pic {
@@ -392,32 +400,9 @@ height: 260px;
     display:none;
   }
 
-#quote {
-  display: flex;
-  content: url('src/Quote.png');
-}
-
-#clock {
-    display: flex;
-  content:url('src/Clock.png');
-}
-#calculator {
-    display: flex;
-  content:url('src/Calculator.png');
-}
-#drum {
-    display: flex;
-  content:url('src/Drum.png');
-}
-
-#weather {
-    display: flex;
-  content:url('src/weather.png');
-}
-
 .pic > * {
-  min-width: 40%;
-  max-width:40%;
+  min-width: 31%;
+  max-width:31%;
 }
 
 .contact {
@@ -554,8 +539,8 @@ font-size: 14px;
   }
 
   .skillbox {
-    min-width: 25em;
-    max-width: 25em;
+    min-width: 20em;
+    max-width: 20em;
   }
 
   .skillbox td{
