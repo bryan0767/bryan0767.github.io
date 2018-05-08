@@ -1,9 +1,9 @@
 body {
 background: linear-gradient(#843535d1, #d4a144d9);
   margin:0;
-  /* width:100%; */
-  /* height:100%; */
-  /* display: flex; */
+  width:100%;
+  height:100%;
+  display: flex;
   justify-content: center;
   overflow: auto;
   -webkit-touch-callout: none;
@@ -21,6 +21,7 @@ background: linear-gradient(#843535d1, #d4a144d9);
   min-width: 98%;
   margin-top: 5%;
   overflow: hidden;
+  align-self: center;
 }
 
 .menu li{
