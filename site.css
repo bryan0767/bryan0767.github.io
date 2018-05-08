@@ -197,6 +197,12 @@ table td:hover {
   max-width: 100%;
 }
 
+#weather {
+  content: url('src/weather.png');
+  min-width: 100%;
+  max-width: 100%;
+}
+
 
 #cover {
   display: flex;
@@ -350,6 +356,10 @@ content: url("src/justdesk.gif") ;
   content:url('src/Drum.png');
 }
 
+#weather {
+  content:url('src/weather.png');
+}
+
 .pic > * {
   min-width: 40%;
   max-width: 40%;
@@ -400,6 +410,11 @@ height: 260px;
   content:url('src/Drum.png');
 }
 
+#weather {
+    display: flex;
+  content:url('src/weather.png');
+}
+
 .pic > * {
   min-width: 40%;
   max-width:40%;
@@ -444,13 +459,13 @@ text-align: center;
   }
 
   .skillbox {
-    min-width: 20em;
-    max-width: 20em;
+    min-width: 25em;
+    max-width: 25em;
   }
 
   .skillbox td{
-    min-width:8em;
-    max-width:8em;
+    min-width:10em;
+    max-width:10em;
     font-size: 8px;
   }
 
@@ -539,18 +554,18 @@ font-size: 14px;
   }
 
   .skillbox {
-    min-width: 20em;
-    max-width: 20em;
+    min-width: 25em;
+    max-width: 25em;
   }
 
   .skillbox td{
-    min-width:8em;
-    max-width:8em;
+    min-width:10em;
+    max-width:10em;
     font-size: 8px;
   }
 
   #top {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #last {
@@ -593,6 +608,14 @@ font-size: 14px;
   #drum {
       display: flex;
     content:url('src/Drum.svg');
+    width: auto ;
+ max-width: 100% ;
+ height: auto ;
+  }
+
+  #weather {
+      display: flex;
+    content:url('src/weather2.svg');
     width: auto ;
  max-width: 100% ;
  height: auto ;
