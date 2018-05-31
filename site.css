@@ -185,6 +185,13 @@ table td:hover {
   max-width: 100%;
 }
 
+#anon {
+  display: flex;
+  content:url('src/Board.png');
+  min-width: 100%;
+  max-width: 100%;
+}
+
 #drum {
   display:flex;
   content:url('src/Drum.png');
