@@ -172,10 +172,34 @@ table td:hover {
   /* width: 20px; */
 }
 
+.pic2 {
+  display: flex;
+  flex-flow: row;
+  min-width: 90%;
+  max-width: 90%;
+  align-items: center;
+  padding:2px;
+  margin: auto;
+  /* border:10px solid black; */
+  justify-content: space-between;
+
+}
+
+.pic2 > * {
+    margin:1%;
+}
+
 .image_container {
   position: relative;
   min-width: 30%;
   max-width: 30%;
+}
+
+#palpa {
+  display: flex;
+  content:url('src/palpa.png');
+  min-width: 100%;
+  max-width: 100%;
 }
 
 #calculator {
@@ -455,6 +479,10 @@ text-align: center;
     display:none;
   }
 
+  .pic2 {
+    display:none;
+  }
+
   .skillbox {
     min-width: 25em;
     max-width: 25em;
@@ -547,6 +575,10 @@ font-size: 14px;
   }
 
   .pic {
+    display:none;
+  }
+
+  .pic2 {
     display:none;
   }
 
