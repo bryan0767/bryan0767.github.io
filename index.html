@@ -9,6 +9,8 @@
       <title>Bryan Makes Things</title>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAFr8AAF19oQD/CAAA////AADq/wAAAP8AuwD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIgAAAAACJ3d3IgAAACdxd0d3IAACdXd3dzdyACd3dyInd2cgJ2dyAAJ3dyAndyAAACd3ICd3IAAAJ0cgJ3cgAAAndyAnN3IAAnd3ICd3dyIncXYgJ1d3d3d3dyACdxd3d1dyAAAnd0d3dyAAAAInd3ciAAAAAAIiIgAAD8HwAA8AcAAOADAADAAQAAgAAAAIHAAACD4AAAg+AAAIPgAACBwAAAgAAAAIAAAADAAQAA4AMAAPAHAAD8HwAA" rel="icon" type="image/x-icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <link href="site.css"
   type="text/css" rel="stylesheet">
 
@@ -298,6 +300,24 @@
     }
     })
   })
+
+  $(document).ready(function(){
+
+    $(".navbar a, #here,.bottomMain a, #headTitle,.overlay-content a, footer a[href='#myPage']").on('click', function(event) {
+
+       if (this.hash !== "") {
+
+         event.preventDefault();
+
+         var hash = this.hash;
+         $('html, body').animate({
+           scrollTop: $(hash).offset().top
+         }, 900, function(){
+           window.location.hash = hash;
+           });
+         }
+       });
+     });
 </script>
 
 </body>
