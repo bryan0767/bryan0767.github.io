@@ -140,7 +140,7 @@ table td:hover {
   margin-bottom: 3%;
   border-radius: 2%;
 
-  font-size: 24px;
+/*   font-size: 24px; */
   text-align: center;
   color:#c8c8ca;
   font-weight: bold;
@@ -332,6 +332,11 @@ table td:hover {
     background-color: hsla(0, 0%, 100%, 0.07);
   }
 
+  .contact > * {
+  margin: 0 4px;
+  color: #c8c8ca;
+}
+
   .list_item img{
     width:60%;
     display:none;
@@ -449,10 +454,10 @@ height: 260px;
   max-width:31%;
 }
 
-.contact {
+/* .contact {
   font-size: 14px;
   width:18%;
-}
+} */
 
 #cover > *{
   font-size: 9px;
@@ -518,10 +523,10 @@ text-align: center;
     display:none
   }
 
-  .contact {
+/*   .contact {
     font-size:8px;
     width:10%;
-  }
+  } */
 
   .little-list {
     display: flex;
@@ -616,11 +621,11 @@ font-size: 14px;
   #third {
     display:none
   }
-
+/* 
   .contact {
     font-size:8px;
     width:10%;
-  }
+  } */
 
   .little-list {
     display: flex;
