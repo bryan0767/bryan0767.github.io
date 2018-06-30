@@ -374,6 +374,11 @@ table td:hover {
   #list {
     font-size: 20px;
   }
+  
+    #list > * {
+    font-size: 17px;
+  }
+
 
   #title {
     font-size:25px;
