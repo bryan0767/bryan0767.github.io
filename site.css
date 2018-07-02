@@ -99,6 +99,7 @@ height:100%;
 width: 43px;
 padding:9px;
 background:rgba(148, 60, 60, 0.81);
+z-index:1;
 }
 
 .sidebar a {
