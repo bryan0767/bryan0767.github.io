@@ -24,7 +24,9 @@ body {
   box-shadow: 13px 17px 0px #b5b5b094;
   font-size: 1.2vw;
   overflow: hidden;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+ -webkit-transition: all 200ms linear;
  transition: all 200ms linear;
  margin:20px auto;
  max-width:30em;
@@ -205,6 +207,7 @@ footer h4:hover{
 
 #cover {
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   position: fixed;
   background: black;
   height:100%;
@@ -212,6 +215,7 @@ footer h4:hover{
   top: 0;
   right: 0;
   padding:30px 0;
+  -webkit-transition: opacity .5s;
   transition: opacity .5s;
   }
 
@@ -401,6 +405,7 @@ footer {
 
   #xx {
     opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   }
 
 }
